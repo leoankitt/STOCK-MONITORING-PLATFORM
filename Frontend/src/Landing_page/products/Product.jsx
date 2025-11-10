@@ -1,18 +1,20 @@
 import React from "react";
 import Hero from "./Hero";
-import CreateTicket from "./CreateTicket";
+import Leftsection from "./Leftsection";
+import Rightsection from "./Rightsection";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-function Sopport() {
+function Product() {
   return (
     <>
       <Navbar />
       <Hero />
-      <CreateTicket />
+      <Leftsection />
+      <Rightsection />
       <Footer />
     </>
   );
 }
 
-export default Sopport;
+export default Product;
