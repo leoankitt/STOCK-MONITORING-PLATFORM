@@ -7,10 +7,37 @@
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff;
+  background-color: #fffffffd;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.award-pragraph {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.Award-img {
+  height: 180px;
+  width: 800px !important;
+  margin-left: 110px;
+}
+
+.pricing-img {
+  height: 200px !important;
+  width: 150px !important;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.pricing-img p {
+  font-size: 10px;
+  margin-top: 100px;
+  margin-right: 20px;
+  color: #666666;
 }
