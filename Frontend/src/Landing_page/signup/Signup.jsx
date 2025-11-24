@@ -1,7 +1,11 @@
 import React from "react";
 
 function Signup() {
-  return <></>;
+  return (
+    <>
+      <h1>Hello Buddy</h1>
+    </>
+  );
 }
 
 export default Signup;
